@@ -1,3 +1,4 @@
+
 name1 = input()
 name2 = input()
 
@@ -27,11 +28,9 @@ int_true_love = int(true_love)
 
 print("The Love Calculator is calculating your score...")
 
-if int_true_love > 40 and int_true_love < 50:
+if int_true_love >= 40 and int_true_love <= 50:
     print(f"Your score is {true}{love}, you are alright together.")
-elif int_true_love < 10:
-    print(f"Your score is {true}{love}, you go together like coke and mentos.")
-elif int_true_love > 90:
+elif int_true_love < 10 or int_true_love > 90:
     print(f"Your score is {true}{love}, you go together like coke and mentos.")
 else:
     print(f"Your score is {true}{love}.")
